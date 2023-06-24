@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coin Data</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="searchInput" placeholder="Search by name">
+  <button id="searchButton">Search</button>
+  <button id="sortButton">Sort by Market Cap</button>
+  <table id="coinTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Image</th>
+        <th>Symbol</th>
+        <th>Current Price</th>
+        <th>Total Volume</th>
+      </tr>
+    </thead>
+    <tbody id="coinTableBody"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
